@@ -1,6 +1,5 @@
 .client__title {
   margin-bottom: 30px;
-  // margin-bottom: 50px;
 
   text-align: center;
   font-style: normal;
@@ -13,6 +12,7 @@
 @media screen and (min-width: 1200px) {
   .client__title {
     @include font(36px, 1.17, 0.03em);
+    margin-bottom: 50px;
   }
 }
 

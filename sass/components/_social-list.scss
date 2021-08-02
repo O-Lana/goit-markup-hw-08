@@ -33,9 +33,18 @@
 }
 
 .join {
-  display: flex;
-  flex-direction: column;
-  margin-right: 93px;
+  // display: flex;
+  // flex-direction: column;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .join {
+    margin-right: 93px;
+    margin-bottom: 0;
+    text-align: inherit;
+  }
 }
 
 .join__icon {
@@ -44,11 +53,15 @@
 
 .join__list {
   display: flex;
+  justify-content: center;
+}
+
+.join__item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .join__link {
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
 
   &:hover,
   &:focus {

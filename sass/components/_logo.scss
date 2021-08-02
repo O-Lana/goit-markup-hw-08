@@ -1,7 +1,7 @@
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  @include font(26px, 1.19, 0.03em);
+  @include font(24px, 1.17, 0.03em);
 
   color: #000000;
 
@@ -16,5 +16,11 @@
   &__footer {
     margin-bottom: 20px;
     color: var(--second-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    @include font(26px, 1.19, 0.03em);
   }
 }

@@ -1,11 +1,28 @@
 .filter__menu {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-left: -8px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter__menu {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter__menu {
+    margin-bottom: 50px;
+  }
 }
 
 .filter__item {
-  margin-right: 8px;
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .filter__btn {
