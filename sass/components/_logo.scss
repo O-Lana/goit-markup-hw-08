@@ -6,7 +6,7 @@
   color: #000000;
 
   &__header {
-    margin-right: 93px;
+    margin-right: 0;
   }
 
   &_theme_color {
@@ -16,6 +16,11 @@
   &__footer {
     margin-bottom: 20px;
     color: var(--second-color);
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo__header {
+    margin-right: 93px;
   }
 }
 
