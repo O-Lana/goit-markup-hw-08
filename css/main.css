@@ -1469,7 +1469,7 @@ body {
   left: 0;
   top: 0;
   padding: 63px 24px;
-  overflow: auto;
+  overflow: hidden;
   transform: translatey(105%);
   font-style: normal;
   font-size: 18px;
